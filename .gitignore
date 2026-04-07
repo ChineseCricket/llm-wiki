@@ -1,0 +1,72 @@
+# === User data (excluded from public repo by default) ===
+
+# Raw source content (keep .gitkeep scaffolds)
+raw/**/*.md
+raw/**/*.json
+raw/**/*.pdf
+raw/**/*.bib
+raw/**/*.html
+raw/**/*.txt
+
+# Compiled wiki content (keep .gitkeep scaffolds)
+wiki/sources/*.md
+wiki/concepts/*.md
+wiki/synthesis/*.md
+wiki/archive/*.md
+!wiki/index.md
+
+# Outputs (keep .gitkeep scaffolds)
+outputs/**/*.md
+outputs/**/*.json
+
+# Internal state
+.kb/sync_state.json
+.kb/manifest.json
+!.kb/.gitkeep
+
+# Activity log content
+log.md
+
+# ARIS meta logs
+.aris/meta/events.jsonl
+.aris/meta/backups/
+.aris/meta/optimizations.jsonl
+
+# Review artifacts
+NIGHTMARE_REVIEW.md
+
+# === Tool & build artifacts ===
+
+# Local tool binaries (installed, not tracked)
+.codex-tools/
+.codex
+
+# Embeddings cache (large, regenerable)
+.kb/embeddings/
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Secrets
+.env
+*.key
+
+# Temporary
+*.tmp
+*.bak
+*.stackdump
+
+# Handoff artifacts (ephemeral)
+handoff/
+
+# Obsidian (user-local)
+.obsidian/
+
+# Zotero exports (user-local)
+zotero/
