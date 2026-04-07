@@ -149,7 +149,7 @@ llm-wiki/
 
 - **[Andrej Karpathy 的 llm-wiki 概念](https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f)** — 使用 LLM 构建和维护个人知识 wiki 的原始创意。
 - **[llm-knowledge-base](https://github.com/louiswang524/llm-knowledge-base)** by Louis Wang — 基于 Claude Code 构建的自管理个人知识库，验证了这一方案的可行性。
-- **[ARIS (Auto-claude-code-research-in-sleep)](https://github.com/wanshuiyin/Auto-claude-code-research-in-sleep)** — 用于自主 ML 研究工作流的 Claude Code 自定义 skills。本仓库中的 `/research-review`、`/gpt-nightmare-review`、`/meta-optimize` 及 agent-deck 集成均改编自 ARIS。
+- **[ARIS (Auto-claude-code-research-in-sleep)](https://github.com/wanshuiyin/Auto-claude-code-research-in-sleep)** — 用于自主 ML 研究工作流的 Claude Code 自定义 skills。本仓库中的 `/research-review`、`/gpt-nightmare-review`、`/meta-optimize` 均改编自 ARIS。
 
 ## 许可证
 

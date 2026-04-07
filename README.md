@@ -149,7 +149,7 @@ This project draws inspiration and tooling from:
 
 - **[Andrej Karpathy's llm-wiki idea](https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f)** — The original concept of using LLMs to build and maintain a personal knowledge wiki.
 - **[llm-knowledge-base](https://github.com/louiswang524/llm-knowledge-base)** by Louis Wang — A self-managed personal knowledge base built with Claude Code, which demonstrated the viability of this approach.
-- **[ARIS (Auto-claude-code-research-in-sleep)](https://github.com/wanshuiyin/Auto-claude-code-research-in-sleep)** — Custom Claude Code skills for autonomous ML research workflows. The `/research-review`, `/gpt-nightmare-review`, `/meta-optimize`, and agent-deck integrations in this repo are adapted from ARIS.
+- **[ARIS (Auto-claude-code-research-in-sleep)](https://github.com/wanshuiyin/Auto-claude-code-research-in-sleep)** — Custom Claude Code skills for autonomous ML research workflows. The `/research-review`, `/gpt-nightmare-review`, and `/meta-optimize` commands in this repo are adapted from ARIS.
 
 ## License
 
