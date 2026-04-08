@@ -1,6 +1,13 @@
 {
   "permissions": {
-    "allow": []
+    "allow": [
+      "Read(//c/ProgramData/anaconda3/envs/claude_zotero/**)",
+      "Bash(/c/ProgramData/anaconda3/condabin/conda.bat run:*)",
+      "Bash(/c/ProgramData/anaconda3/envs/claude_zotero/python --version)",
+      "Bash(PYTHONUTF8=1 PYTHONIOENCODING=utf-8 /c/ProgramData/anaconda3/condabin/conda.bat run --no-banner -n claude_zotero python -u \"C:/Users/12182/Documents/LTD/FDM/fdm-wiki/tools/_sync_fdpm_children.py\")",
+      "Bash(PYTHONUTF8=1 PYTHONIOENCODING=utf-8 /c/ProgramData/anaconda3/condabin/conda.bat run -n claude_zotero python -u \"C:/Users/12182/Documents/LTD/FDM/fdm-wiki/tools/_sync_fdpm_children.py\")",
+      "Bash(PYTHONIOENCODING=utf-8 /c/ProgramData/anaconda3/condabin/conda.bat run -n claude_zotero python \"C:/Users/12182/Documents/LTD/FDM/fdm-wiki/tools/zotero_sync.py\" --status)"
+    ]
   },
   "hooks": {
     "PostToolUse": [
